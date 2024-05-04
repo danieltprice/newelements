@@ -18,7 +18,7 @@ For the workflows to work, you need to add the following secrets to your GitHub 
 - `NEON_PROJECT_ID` - this is the ID of the Neon project. You can find it in the project settings on Neon.
 - `NEON_MAIN_BRANCH_NAME` - this is the name of your primary branch on Neon and what you use for production. By default, it's `main`
 - `PG_DATABSE` - this is the name of the database on Neon. By default, it's name is `neondb`
-- `PG_USERNAME` - username of the database role
+- `NEON_DATABASE_USERNAME` - username of the database role
 
 If you're unfamiliar with how to add secrets to a GitHub repository, you can read more about in [GitHub's documentation](https://docs.github.com/en/actions/security-guides/encrypted-secrets).
 
